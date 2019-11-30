@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300&display=swap" rel="stylesheet">
+  <link href="/Users/kevinquinn/.atom/beginnerprojects.atom/css/ursastyles.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8" name= "viewport" content="width:device-width, initial-scale=1">
+  <title>URSA Media Group</title>
+</head>
+<style>
+  body {
+    width:100%;
+    height:100%;
+    margin: 0px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 0px;
+  overflow-x: hidden;
+  }
+
+  .container {
+    margin: 0px;
+    padding: 40px;
+    text-align: center;
+    align-self: center;
+    word-spacing: 1px;
+  }
+
+  header {
+    background: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+  }
+
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  .logo{
+    height: 100px;
+    width: 100px;
+    overflow:hidden;
+    padding:center;
+  }
+
+  .nospace {
+    display: block;
+    font-size: 0;
+    text-align: center;
+  }
+
+  nav {
+    font-size:10px;
+    text-align: center;
+    padding-right: 50px;
+    padding-left:-50px;
+    width: 100%;
+    padding-top: -30px;
+    padding-bottom: 30px;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right:50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    direction: row;
+  }
+  .home{
+    align-items: center;
+    width:100%;
+    height:auto;
+  }
+
+  .gallery{
+    align-items: center;
+    width:100%;
+    height:auto;
+  }
+
+  .whoweare{
+    align-items: center;
+    width:100%;
+    height:auto;
+  }
+  .whatwedo{
+    align-items: center;
+    width:100%;
+    height:auto;
+  }
+  .whoweworkwith{
+    align-items: center;
+    width:100%;
+    height:auto;
+  }
+
+  nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    float: center;
+  }
+
+  nav a:hover {
+    color: black;
+  }
+
+  nav a:before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+
+  }
+
+  nav a:hover:before {
+    width: 100%;
+  }
+
+  footer {
+    background-color: white;
+    padding: 30px;
+    color: black;
+    word-spacing: 5px;
+    text-align: center;
+  }
+</style>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#whoweare">WHO-WE-ARE</a></li>
+          <li><a href="#whatwedo">WHAT-WE-DO</a></li>
+          <li><a href="#whoweworkwith">EXPERIENCE</a></li>
+          <li><a href="connect.html">CONNECT</a></li>
+        </ul>
+</nav>
+      </div>
+
+  </header>
+  <div id="home">
+    <p>
+      <img class="home" src="/Users/kevinquinn/Desktop/URSA.jpg" alt="Home">
+    </p>
+  </div>
+
+  <div id="gallery">
+    <p>
+      <img class="gallery" src="/Users/kevinquinn/Desktop/URSAGallery.jpg" alt="Gallery">
+    </p>
+  </div>
+
+  <div id="whoweare">
+    <p>
+      <img class="whoweare" src="/Users/kevinquinn/Desktop/URSAWhoWeAre.jpg" alt="Who We Are">
+    </p>
+  </div>
+
+  <div id="whatwedo">
+    <p>
+      <img class="whatwedo" src="/Users/kevinquinn/Desktop/WhatWeDo1.jpg" alt="What We Do">
+    </p>
+  </div>
+
+  <div id="whoweworkwith">
+    <p>
+      <img class="whoweworkwith" src="/Users/kevinquinn/Desktop/EXPERIENCE.jpg" alt="Who We Work With">
+    </p>
+  </div>
+
+
+  <footer>
+    <p>URSA MEDIA GROUP</p>
+  </footer>
+
+</body>
+
+</html>
