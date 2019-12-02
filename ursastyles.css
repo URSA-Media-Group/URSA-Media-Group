@@ -1,54 +1,13 @@
-/*styles.css*/
-body {
-  margin: 0;
-  background: black;
-  font-family: 'Raleway',sans-serif;
-  font-weight: 400;
-}
-
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
-
-header {
-  background: white;
-}
-
 header:after {
   content: '';
   display: table;
   clear: both;
 }
 
-.logo {
-  float: left;
-  padding: 10px 0;
-  height:40%;
-  width:40%;
-}
-
 .nospace {
   display: block;
   font-size:0;
   text-align: center;
-}
-
-nav {
-  float: right;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin-left: 70px;
-  padding-top: 23px;
-  position: relative;
 }
 
 nav a {
@@ -68,7 +27,7 @@ nav a::before {
   height: 5px;
   background-color: black;
   position: absolute;
-  top: 0;
+  top: 10px;
   width: 0%;
   transition: all ease-in-out 250ms;
 }
@@ -77,6 +36,103 @@ nav a::hover::before {
   width: 100%;
 }
 
-footer {
-  text-align: center;
-}
+  body {
+    width:100%;
+    height:100%;
+    margin: 0px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 0px;
+  overflow-x: hidden;
+  }
+
+  .container {
+    margin: 10px;
+    padding: 40px;
+    text-align: center;
+    align-self: center;
+    bottom:10px;
+    word-spacing: 10px;
+  }
+
+  header {
+    background: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+  }
+
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  .nospace {
+    display: block;
+    font-size: 0;
+    text-align: center;
+  }
+
+  nav {
+    font-size:10px;
+    text-align: center;
+    padding-right: 50px;
+    padding-left:-50px;
+    width: 100%;
+    padding-top: -30px;
+    padding-bottom: 10px;
+  }
+
+  nav ul {
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right:50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    direction: row;
+  }
+  .home{
+    align-items: center;
+    width:100%;
+    height:auto;
+  }
+
+  .gallery{
+    align-items: center;
+    width:100%;
+    height:auto;
+  }
+
+  .whoweare{
+    align-items: center;
+    width:100%;
+    height:auto;
+  }
+  .whatwedo{
+    align-items: center;
+    width:100%;
+    height:auto;
+  }
+  .whoweworkwith{
+    align-items: center;
+    width:100%;
+    height:auto;
+  }
+
+  footer {
+    background-color: white;
+    padding: 30px;
+    color: black;
+    word-spacing: 5px;
+    text-align: center;
+  }
